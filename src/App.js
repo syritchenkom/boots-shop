@@ -2,8 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div className="wrapper">
+      <header className="App-header">
+        <div className="heder-left"></div>
+        <div className="heder-right"></div>
+      </header>
     </div>
   );
 }
