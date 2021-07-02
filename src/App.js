@@ -1,13 +1,22 @@
 function App() {
   return (
     <div className="wrapper">
-      <header className="App-header">
+      <header>
         <div className="heder-left">
-          <Image />
+          <img src="img/logo.png" />
           <title>Доброго дня.</title>
           <p>Магазин лучших кроссовок</p>
         </div>
-        <div className="heder-right"></div>
+        <ul className="heder-right">
+          <li>
+            <img />
+            <span></span>
+          </li>
+          <li>
+            <img />
+            <span></span>
+          </li>
+        </ul>
       </header>
     </div>
   );
